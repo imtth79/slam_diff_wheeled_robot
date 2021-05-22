@@ -5,10 +5,10 @@
    + Để có thể mô phỏng robot 3D với ROS cần tải 2 package sau: urdf và xacro (tutorial và cách tải có trên ROS Wiki, tải bằng sudo apt-get install ros-<distro>-<package> là được)
   +  Để trực quan hóa (visualization) robot 3D và các kết quả chạy của robot 3D ngoài gazebo còn cần tải thêm rviz nữa.
   +  Để mô phỏng robot bằng Gazebo và ROS thì cần tải cả các package sau: 
-     > gazebo_ros_pkgs: Chứa các gói và tools để làm giao diện trên Gazebo từ ROS
-     > gazebo-msgs: Chứa các messages và service data structures để làm giao diện trên Gazebo từ ROS
+     > gazebo_ros_pkgs: Chứa các gói và tools để làm giao diện trên Gazebo từ ROS.
+     > gazebo-msgs: Chứa các messages và service data structures để làm giao diện trên Gazebo từ ROS.
      > gazebo-plugins: Chứa các Gazebo plugins dùng cho sensors, actuators, v.v..
-     > gazebo-ros-control: Chứa các standard controllers để giao tiếp giữa ROS và Gazebo
+     > gazebo-ros-control: Chứa các standard controllers để giao tiếp giữa ROS và Gazebo.
   +  Để dùng cho slam, navigation (localization) và map-server cần tải nốt navigation-stack package cho ROS kinetic là xong phần chuẩn bị.
   
 ## 2. Bài toán chính: Building a map using SLAM 
